@@ -122,4 +122,13 @@ nav {
 .cont .social .icon:hover * {
   color: #df204d !important;
   transition: 0.5s;
+}
+
+@media only screen and (max-width: 420px) {
+  .cont {
+    top: 20% !important;
+  }
+  .cont .moto {
+    margin-left: 5px;
+  }
 }/*# sourceMappingURL=main.css.map */
