@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 .primBg {
-    background: #1b1a23 !important;
+    background: #111827 !important;
 }
 .secBg {
     background: #1f1d28 !important;
@@ -16,7 +16,7 @@
 .optText {
     color: #423789 !important;
 }
-.danText{
+.danText {
     color: #df204d;
 }
 .primBtn {
@@ -28,12 +28,12 @@
 .h100 {
     min-height: 100vh;
 }
-.hTitle{
-    font-family: 'Agbalumo';
+.hTitle {
+    font-family: "Agbalumo";
     font-size: 54px;
 }
-.h{
-    font-family: 'Ubuntu', sans-serif;
+.h {
+    font-family: "Ubuntu", sans-serif;
 }
 
 .App {
@@ -67,31 +67,52 @@ nav {
     width: 100%;
 }
 
-.cont{
-position: absolute;
-top: 40%;
-left: 0;
-width: 100%;
-.moto{
-    float: left;
-    margin-left: 10%;
-    text-align: start;
-}
-.twoBtn{
-    a{
-        font-weight: bolder !important;
-    }
-}
-.social{
+.cont {
     position: absolute;
-    float: right;
-    bottom: 0;
-    right: 0;
-    margin-right: 5%;
-    .icon{
-        border: 1px solid #d1d0d0;
-        border-radius: 50%;
-        padding: 5px;
+    top: 40%;
+    left: 0;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    .moto {
+        float: left;
+        margin-left: 10%;
+        text-align: start;
     }
-}
+    .twoBtn {
+        a {
+            font-weight: bolder !important;
+            transition: 0.5s;
+        }
+        .b1:hover {
+            transition: 0.5s;
+            background-color: #423789 !important;
+        }
+        .b2:hover {
+            transition: 0.5s;
+            background-color: #df204d !important;
+        }
+    }
+    .social {
+        padding: 0;
+        margin: 0;
+        width: auto !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        .icon {
+            border: 1px solid #d1d0d0;
+            border-radius: 50%;
+            padding: 5px;
+            transition: 0.5s;
+        }
+        .icon:hover {
+            border: 1px solid #df204d;
+            transition: 0.5s;
+            * {
+                color: #df204d !important;
+                transition: 0.5s;
+            }
+        }
+    }
 }

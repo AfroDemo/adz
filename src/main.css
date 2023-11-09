@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 .primBg {
-  background: #1b1a23 !important;
+  background: #111827 !important;
 }
 
 .secBg {
@@ -80,6 +80,8 @@ nav {
   position: absolute;
   top: 40%;
   left: 0;
+  align-items: flex-end;
+  justify-content: space-between;
   width: 100%;
 }
 .cont .moto {
@@ -89,16 +91,35 @@ nav {
 }
 .cont .twoBtn a {
   font-weight: bolder !important;
+  transition: 0.5s;
+}
+.cont .twoBtn .b1:hover {
+  transition: 0.5s;
+  background-color: #423789 !important;
+}
+.cont .twoBtn .b2:hover {
+  transition: 0.5s;
+  background-color: #df204d !important;
 }
 .cont .social {
-  position: absolute;
-  float: right;
-  bottom: 0;
-  right: 0;
-  margin-right: 5%;
+  padding: 0;
+  margin: 0;
+  width: auto !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .cont .social .icon {
   border: 1px solid #d1d0d0;
   border-radius: 50%;
   padding: 5px;
+  transition: 0.5s;
+}
+.cont .social .icon:hover {
+  border: 1px solid #df204d;
+  transition: 0.5s;
+}
+.cont .social .icon:hover * {
+  color: #df204d !important;
+  transition: 0.5s;
 }/*# sourceMappingURL=main.css.map */
